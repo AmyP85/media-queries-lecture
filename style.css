@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    li {
+        color: blue;
+    }
+}
+
+@media print , (max-width: 500px) {
+    li {
+        color: rebeccapurple
+    }
+}
